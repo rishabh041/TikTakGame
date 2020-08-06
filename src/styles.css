@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boardHeader {
+  margin-bottom: 10px;
+}
+.boardRow {
+  display: flex;
+}
+.Box {
+  outline: none;
+  border: 1px solid grey;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+}
